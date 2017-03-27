@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+   android:padding="@dimen/activity_horizontal_margin"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/txt_tencongty"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#f1ab07"
+        android:layout_marginBottom="@dimen/bot_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cong ty APPLE" />
+    <TextView
+        android:id="@+id/txt_tongNhanSu"
+        android:layout_marginBottom="@dimen/bot_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhan su 100" />
+    <TextView
+        android:id="@+id/txt_tongtien"
+        android:layout_marginBottom="@dimen/bot_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Von 100.000 USD"/>
+        <TextView
+            android:id="@+id/txt_tongNgay"
+            android:text="Day 20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txt_Tonglv"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Lever 5"/>
+        <TextView
+            android:id="@+id/txt_nextLvTong"
+            android:text="Next LV 200.000"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_nextLvTong"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Up LV"/>
+    </LinearLayout>
+    <View
+        android:layout_marginBottom="@dimen/bot_margin"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#c4c2c2"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/bot_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phong ky thuat" />
+        <TextView
+            android:id="@+id/txt_nhansuKT"
+            android:layout_marginBottom="@dimen/bot_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nhan su 100" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/txt_lvKyThuat"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Lever 5"/>
+            <TextView
+                android:id="@+id/txt_nextlvKT"
+                android:text="Next LV 200.000"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn_nextLvKT"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Up LV"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_marginBottom="@dimen/bot_margin"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#c4c2c2"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/bot_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phong nhan su" />
+        <TextView
+            android:id="@+id/txt_nhansuNS"
+            android:layout_marginBottom="@dimen/bot_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nhan su 100" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/txt_lvNHansu"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Lever 5"/>
+            <TextView
+                android:id="@+id/txt_nextLVNS"
+                android:text="Next LV 200.000"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn_nextLvNS"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Up LV"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_marginBottom="@dimen/bot_margin"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#c4c2c2"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+                        android:textStyle="bold"
+            android:layout_marginBottom="@dimen/bot_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phong sang tao" />
+        <TextView
+            android:id="@+id/txt_nhansuST"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nhan su 100" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/txt_lvSangTao"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Lever 5"/>
+            <TextView
+                android:id="@+id/txt_nextLvST"
+                android:text="Next LV 200.000"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn_nextLvSt"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Up LV"/>
+        </LinearLayout>
+    </LinearLayout>
+     
+</LinearLayout>
+
+
+</RelativeLayout>

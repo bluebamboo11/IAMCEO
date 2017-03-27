@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="com.example.blue.iamceo.Activity.NhanVienActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/avatar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="@dimen/text_size"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ten" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_size"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Tong Thanh Tung" />
+            </LinearLayout>
+            <LinearLayout
+android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="@dimen/text_size"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Lever" />
+
+                <TextView
+                    android:textSize="@dimen/text_size"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="5" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="@dimen/text_size"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Luong" />
+
+                <TextView
+                    android:textSize="@dimen/text_size"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="3000 USD" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="@dimen/text_size"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Chuc vu" />
+
+                <TextView
+                    android:textSize="@dimen/text_size"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Nhan vien" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+<View
+    android:layout_marginTop="@dimen/activity_horizontal_margin"
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:background="#bab7b7"/>
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph_view"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <View
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#bab7b7"/>
+    <LinearLayout
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btn_thang_chuc"
+        android:layout_weight="1"
+       android:textAllCaps="false"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Thang chuc"/>
+        <Button
+            android:id="@+id/btn_thuong"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Thuong"/>
+        <Button
+            android:id="@+id/btn_tang_luong"
+            android:textAllCaps="false"
+            android:text="Tang luong"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_xa_thai"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/holo_red_dark"
+       android:text="Duoi viec"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

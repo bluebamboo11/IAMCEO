@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9bb7de"
+    tools:context="com.example.blue.iamceo.Fragment.KyThuatFragment">
+    <Button
+        android:id="@+id/btn_nghien_cuu"
+        android:layout_alignParentBottom="true"
+        android:background="#e97c16"
+        android:text="Nhien cuu"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_above="@+id/btn"
+        android:id="@+id/recycler_kythuat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

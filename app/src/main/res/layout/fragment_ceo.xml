@@ -1,0 +1,21 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/recycler_kythuat"
+    tools:context="com.example.blue.iamceo.Fragment.CEOFragment">
+    <Button
+        android:id="@+id/btnNextDay"
+        android:text="Next day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_above="@+id/btn"
+        android:id="@+id/recycler_ceo"
+        android:layout_height="match_parent" />
+</RelativeLayout>

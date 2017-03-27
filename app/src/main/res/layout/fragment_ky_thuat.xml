@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9bb7de"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.blue.iamceo.Fragment.KyThuatFragment">
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/ltn"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        >
+
+        <Button
+            android:id="@+id/btnThemDuAn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#e97c16"
+            android:text="Them du an" />
+
+        <Button
+            android:id="@+id/btnDuAN"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="2"
+            android:background="#e97c16"
+            android:text="Du an" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+       android:layout_above="@+id/ltn"
+        android:id="@+id/recycler_kythuat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       />
+
+
+</RelativeLayout>
